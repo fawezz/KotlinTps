@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">curriculum Vitae</string>
+    <string name="toast_message_good_scores">Vous avez de bons skills !</string>
+    <string name="toast_message_low_scores">Vous devez travailler vos skills</string>
+    <string name="check_input">check your input !</string>
+    <string name="check_email">check your email !</string>
+</resources>
