@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".ResumeActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:background="@drawable/background_border">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Resume"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/lblName"
+        android:layout_width="match_parent"
+        android:text="Name: ESPRIT"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Email: aaa@test.tn"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lblAge"
+        android:layout_width="match_parent"
+        android:text="Age: 25"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lblGender"
+        android:layout_width="match_parent"
+        android:text="Gender: Male"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lblAndroid"
+        android:layout_width="match_parent"
+        android:text="Android Skill: 70"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lblIOS"
+        android:layout_width="match_parent"
+        android:text="iOS Skill: 100"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lblFlutter"
+        android:layout_width="match_parent"
+        android:text="Flutter Skill: 100"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lblLanguages"
+        android:layout_width="match_parent"
+        android:text="Languages: English"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lblHobbies"
+        android:layout_width="match_parent"
+        android:text="Hobbies: Games"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</LinearLayout>
